@@ -12,7 +12,7 @@ To install in a conda environment, use following command:
 
 `conda install git pip`
 
-`pip install git+git://github.com/sciann/sciann.git`
+`pip install git+https://github.com/acarafat/pyCirclize.git`
 
 ## Table of contents
 
