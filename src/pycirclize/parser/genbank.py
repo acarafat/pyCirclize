@@ -9,8 +9,8 @@ from pathlib import Path
 from typing import Any
 
 import numpy as np
-from Bio import SeqIO, SeqUtils
-from Bio.SeqFeature import FeatureLocation, Seq, SeqFeature
+from Bio import SeqIO, SeqUtils, Seq
+from Bio.SeqFeature import FeatureLocation, SeqFeature
 from Bio.SeqRecord import SeqRecord
 
 
