@@ -7,6 +7,13 @@
 [![conda-forge](https://img.shields.io/conda/vn/conda-forge/pycirclize.svg?color=green)](https://anaconda.org/conda-forge/pycirclize)
 [![CI](https://github.com/moshi4/pyCirclize/actions/workflows/ci.yml/badge.svg)](https://github.com/moshi4/pyCirclize/actions/workflows/ci.yml)
 
+## This is a fork of pyCirclize to be used by beav
+To install in a conda environment, use following command:
+
+`conda install git pip`
+
+`pip install git+git://github.com/sciann/sciann.git`
+
 ## Table of contents
 
 - [Overview](#overview)
