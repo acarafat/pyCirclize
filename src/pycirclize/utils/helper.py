@@ -9,7 +9,8 @@ class ColorCycler:
     """Color Cycler Class"""
 
     counter = 0
-    cmap: Colormap = mpl.colormaps["tab10"]
+    #cmap: Colormap = mpl.colormaps["tab10"]
+    cmap: Colormap = mpl.pyplot.cm.get_cmap('tab10')
 
     def __new__(cls, n: int | None = None) -> str:
         """Get hexcolor cyclically from cmap by counter or user specified number
