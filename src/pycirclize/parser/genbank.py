@@ -174,7 +174,7 @@ class Genbank:
         if step_size is None:
             step_size = int(len(seq) / 1000)
             if step_size == 0:
-                step_size == int(len(seq)/2)
+                step_size = int(len(seq)/2)
         pos_list = list(range(0, len(seq), step_size)) + [len(seq)]
         for pos in pos_list:
             window_start_pos = pos - int(window_size / 2)
