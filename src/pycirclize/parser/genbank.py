@@ -306,13 +306,14 @@ class Genbank:
                     or (pseudogene is True and has_pseudo_qual)
                     or (pseudogene is False and not has_pseudo_qual)
                 ):
-                    seqid2features[rec.id].append(
-                        SeqFeature(
-                            location=FeatureLocation(start, end, feat.strand),
-                            type=feat.type,
-                            qualifiers=feat.qualifiers,
-                        ),
-                    )
+                    seqid2features[rec.id].append(feat)
+                    #seqid2features[rec.id].append(
+                    #    SeqFeature(
+                    #        location=FeatureLocation(start, end, feat.strand),
+                    #        type=feat.type,
+                    #        qualifiers=feat.qualifiers,
+                    #    ),
+                    #)
         return seqid2features
 
     def extract_features(
